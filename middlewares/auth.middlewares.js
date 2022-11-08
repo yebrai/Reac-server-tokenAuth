@@ -20,7 +20,6 @@ const isAuthenticated = jwt({
             console.log("Tipo de token incorrecto");
             return null
         }
-        
         // a partir de este punto el token ha sido recibido
 
         // para validarlo lo retornamos de la funcion
